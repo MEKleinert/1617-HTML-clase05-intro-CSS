@@ -1,0 +1,23 @@
+/* podemos poner el mismo estilo a varias cosas distintas separando con una "," */
+
+h1, p {
+    color: peru;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+/* font-weight no es lo mismo que tamaño. Es el peso, no el tamaño, no lleva medidas */
+h1 {
+    font-weight: 100;
+    font-size: 2em;
+}
+
+/* cuando tienen el mismo peso y misma propiedad, elige el ultimo valor (cascading) */
+p {
+    color: plum;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.pixel {
+    font-size: 48px;
+}

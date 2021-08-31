@@ -1,0 +1,25 @@
+body {
+    background-color: palegreen;
+    margin: 0;
+}
+
+div {
+    background-color: paleturquoise;
+    /* arriba, derecha, abajo, izquierda */
+    margin: 4% 15% 3% 10%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+div p {
+    color: rebeccapurple;
+}
+
+p {
+    color: orangered;
+}
+
+/* el orden en el css no afecta, excepto que tengan el mismo valor de especificidad */
+.Lorem {
+    color: peru;
+}
